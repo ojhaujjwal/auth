@@ -11,6 +11,7 @@ A Zend framework module based on ZfcUser to check if user is logged in and to ma
 ##Installation
 * Install all dependancy for this module
 * Clone this module to `./vendor` directory
+* Enable the module in `config/application.config.php`
 * Copy file located in `./vendor/Auth/config/Auth.local.php` to `./config/autoload/Auth.local.php` and change the values as you wish
 
 ##Options
