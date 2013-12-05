@@ -1,0 +1,29 @@
+{
+    "name": "ujjwal/auth",
+    "description": "A Zend framework module based on ZfcUser to check if user is logged in and to manage session, session save handler etc",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/ojhaujjwal/auth",
+    "authors": [
+        {
+            "name": "ojhaujjwal",
+            "email": "bring2uo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-base": "0.1.*",
+        "zf-commons/zfc-user": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Auth": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
