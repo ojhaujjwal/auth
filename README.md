@@ -115,6 +115,7 @@ $session_settings = array(
 );
 </pre>
 
+`Note`: Dont forget to import schema available in `data/mysql.sql` to use `session_set_save_handler`
 
 #### Session Validators
 
