@@ -89,7 +89,7 @@ $session_settings = array(
 #### Session set save handler
 
 This module also comes with session set save handler to store session data in database.
-By default session_set_save_hander is already enabled. You have to enable it in options.
+By default session_set_save_hander is already enabled. If you want to disable it, disable it in the following settings:
 
 <pre>
 $session_settings = array(
