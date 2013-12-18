@@ -58,7 +58,7 @@ $auth_settings = array(
 
 #### Session configurations
 
-You can all the session options as session name, save path, save handler etc.
+You can set all the session options as session name, save path, save handler etc.
 To do so, edit the `Auth.local.php` as follows:
 
 <pre>
