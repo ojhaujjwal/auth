@@ -11,7 +11,7 @@ A Zend framework module based on ZfcUser to check if user is logged in and to ma
 ##Installation
 * Add `"ujjwal/auth": "1.0.*",` to your composer.json and run `php composer.phar update`
 * Enable the module in `config/application.config.php`
-* Copy file located in `./vendor/Auth/config/Auth.local.php` to `./config/autoload/Auth.local.php` and change the values as you wish
+* Copy file located in `./vendor/ujjwal/auth/config/Auth.local.php` to `./config/autoload/Auth.local.php` and change the values as you wish
 
 ##Options
 
