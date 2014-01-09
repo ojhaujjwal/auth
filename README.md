@@ -3,6 +3,9 @@ auth
 
 A Zend framework module based on ZfcUser to check if user is logged in and to manage session, session save handler etc.
 
+## Note
+This module is currently unmaintained. Please use [HtSession](https://github.com/hrevert/HtSession) instead.
+
 ##Requirements
 * Zend Framework 2
 * ZfcUser
